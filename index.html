@@ -3,8 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>My first Bitstarter</title>
-  <link rel="stylesheet" type="text/css" 
-      href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css" >
+  <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
+  <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">    
+  <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
+  <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+  <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" 
+        rel="stylesheet" type="text/css">
   <style type="text/css">
   
   @media(min-width: 980px){
@@ -57,7 +63,7 @@
   }
   .actions {
     background-color: #343434;
-    padding: 3% 0%;
+    padding: 2% 0%;
   }
 
   .statistics h3, .statistics p {
@@ -117,6 +123,7 @@
 
       <div class="span5 actions">
         <div class="span10 offset1">
+          
           <div class="row-fluid statistics">
             <div class="span4">
               <div class="linediv-l">
@@ -135,23 +142,31 @@
             </div>
           </div>
         </div>
+
         <div class="row-fluid">
           <div class="span10 offset1">
-            <!-- Bootstrap progress bar -->
-            <!-- http://twitter.github.io/bootstrap/components.html#progress -->
             <div class="thermometer progress active">
               <div  class="bar bar-success" style="width: 60%;"></div>
               <div class="bar bar-warning" style="width: 40%;"></div>
             </div>
           </div>
         </div>
+
+        <div class="row-fluid">
+          <div class="span6 offset3 order">
+            <button class="btn btn-success btn-large">Preorder</button>
+          </div>
+        </div>
+
+        <div class="row-fluid">
+          <div class="span8 offset2 social">
+            <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
+            <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+          </div>
+        </div>
       </div>
 
-      <div class="span6">
-        <div class="thermometer">Thermometer</div>
-        <div class="order">order</div>
-        <div class="social">Social</div>
-      </div>
+
     </div>
     <div class="row section1">
       <div class="span12">Marketing Section 1</div>
